@@ -187,8 +187,8 @@
 # # for item in ['mosh','thor','diby','barakka']:
 # #     print(item[5:12])
 
-# # for item in range(212, 400, 5):
-# #     print(item)
+# for item in range(212, 220):
+#     print(item)
 
 # prices = [10,20,30]
 # total = 0
@@ -203,3 +203,31 @@
 # # xxxxx
 # # xx
 # # xx
+
+# numbers = [5,2,5,2,2]
+# for i in numbers:
+#     print(i * "x")
+    
+# numbers = [5,2,5,2,2]
+# for list_value in numbers:
+#     output = ''
+#     for count in range(list_value):
+#         output += 'x'
+#     print(output)
+
+# names = ['hog','canon','tower','scar','spack']
+# print(names[-2])
+
+#Write a program to find the largest number in a list
+
+num_list = [23,12,53,26,5, 22,34]
+largest = num_list[0]
+for x in num_list:
+    if x>largest:
+        largest = x
+print(largest)
+
+
+
+
+
